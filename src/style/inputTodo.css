@@ -1,0 +1,35 @@
+.input-from {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee69;
+  border-radius: 10px;
+  margin: 10px auto 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.input-from .add-input {
+  margin-left: 150px; 
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.add-input .input {
+  border: 1px solid #282c34;
+  border-radius: 12px;
+  height: 40px;
+  padding: 0 12px;
+  width: 240px;
+  outline: none;
+}
+.add-btn {
+  background-color: #d3bebe;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  height: 40px;
+  width: 140px;
+  cursor: pointer;
+  margin-right: 150px;
+}
